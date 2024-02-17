@@ -1,0 +1,22 @@
+.selectButtonBox {
+  display: flex;
+}
+.selectButton {
+  width: 50%;
+  height: 2.75rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonActive {
+  border-bottom: 1px solid #000;
+}
